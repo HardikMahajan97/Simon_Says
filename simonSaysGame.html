@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says-Game</title>
+    <link rel="stylesheet" href="simonSaysGame.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <div id="rules">
+        <h4>Rules for the game:</h4>
+        <ul>
+            <li> Press on start button to start the game</li>
+            <li> After pressing, out of the four, one box will flash white.<br>Be attentive over which box does it so!</li>
+            <li> You click that box that flashed up and then after a second another box will flash up.</li>
+            <li> Now, you have to remember and click on all the previous boxes which flashed up in their original sequence and then click on the recent box that flashed up.</li>
+            <li> After every correct pattern, you level up!</li>
+            <li> If you forget the pattern and click on the wrong box, you lose!<br>Hit start button again to restart the game.</li>
+            <li>You may start the game!</li>
+        </ul>
+    </div>
+    <h2>Press the button to start</h2>
+    <button type="button" id="Start-btn">Start</button>
+    <h3></h3>
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red">1</div>
+            <div class="btn green" type="button" id="green">2</div>
+        </div>
+        <div class="line-two"> 
+            <div class="btn orange" type="button" id="orange">3</div>
+            <div class="btn blue" type="button" id="blue">4</div>
+        </div>
+    </div>
+    <script src="simonSaysGame.js"></script>
+</body>
+</html>

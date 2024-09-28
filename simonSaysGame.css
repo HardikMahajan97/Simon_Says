@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    background-color: bisque;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#rules{
+    text-align: start;
+
+}
+#Start-btn{
+    height: 80px;
+    width: 150px;
+    border-radius: 40px;
+    border: 5px solid black;
+    background-color: chartreuse;
+    font-weight: 500;
+}
+#Start-btn:active{
+    height: 100px;
+    width: 200px;
+    border-radius: 35px;
+    border: 5px solid black;
+    background-color: rgb(8, 167, 141);
+    font-weight: 500;
+}
+.line-one{
+    display:flex;
+    justify-content: center;
+}
+.line-two{
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 15px solid black;
+    margin: 2.5rem;
+    font-size:30px;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blueviolet;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color:black;
+}
+
+@media (max-width: 500px){
+    .btn{
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+        border: 10px solid black;
+        margin: 2.5rem;
+        font-size:30px;
+    }
+}
+@media (max-width: 400px){
+    .btn{
+        height: 70px;
+        width: 70px;
+        border-radius: 20%;
+        border: 8px solid black;
+        margin: 2.5rem;
+        font-size:15px;
+    }
+}
+@media (max-width: 350px){
+    #Start-btn{
+        height: 60px;
+        width: 120px;
+        border-radius: 35px;
+        border: 5px solid black;
+        background-color: chartreuse;
+        font-weight: 500;
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+        border-radius: 20%;
+        border: 6px solid black;
+        margin: 2.5rem;
+        font-size:12px;
+    }
+}
