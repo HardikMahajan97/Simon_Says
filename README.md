@@ -5,5 +5,5 @@ Developed a front-end foccused game which is about testing the memorizing power 
 Built on vanilla JavaScript along with CSS and HTML, this web game is made responsive for optimal user experience on any device.
 
 Running on the local devices:
-1. Clone the repo using the command "git clone my_repo_link"
+1. Clone the repo using the command "git clone [my_repo_link](https://github.com/HardikMahajan97/Simon_Says.git)"
 2. And then run the index.html file in the folder where it exists.
