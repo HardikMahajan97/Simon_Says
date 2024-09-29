@@ -34,7 +34,7 @@ Built on vanilla JavaScript along with CSS and HTML, this web game is made respo
   -Click on Create branch <new branch name>, which will automatically take you to your new branch. You can make edits on the main branch, but this may cause issues down the line. The best practice is to create a new branch for each separate issue you work on. That way your main branch remains in sync with proejects main branch.
 
 **3. Edit:**
-
+- Go to the simonSaysGame.html file and run it on the browser.
 - Make the required changes to the code as per the issue told
 
 **4. Raise a Pull Request:**
